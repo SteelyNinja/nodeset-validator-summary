@@ -16,5 +16,5 @@ A Python script to analyze Ethereum transactions for the NodeSet protocol, summa
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nodeset-validator-summary.git
+   git clone https://github.com/SteelyNinja/nodeset-validator-summary.git
    cd nodeset-validator-summary
