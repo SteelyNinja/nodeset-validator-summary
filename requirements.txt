@@ -1,0 +1,5 @@
+requests==2.31.0
+web3==6.11.0
+python-dotenv==1.0.0
+setuptools==70.0.0
+
