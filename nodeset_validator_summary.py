@@ -153,12 +153,12 @@ def summarize_validators_by_operator(api_key: str, eth_client_url: str) -> None:
         operator_count = validator_counts[validator_count]
         print(f"Number of operators with {validator_count} validators: {operator_count}")
         total_validators += operator_count * validator_count
-    logging.info("Validator summary generated successfully.")
 
     """ assume equal ETH per validator """
     print(f"total validators: {total_validators}")
     print(f"max validators: {sorted_counts[-1]}")
     print(f"Net maximum asset exposure for highest operators: {sorted_counts[-1] / total_validators}")
+    logging.info("Validator summary generated successfully.")
 
 def main():
     """Main function to execute the validator summary."""
